@@ -1,0 +1,22 @@
+{
+  "name": "latex-tree",
+  "main": "./lib/latex-tree",
+  "version": "0.0.1",
+  "description": "Document tree view for LaTeX",
+  "keywords": [
+      "latex",
+      "tex",
+      "tree",
+      "view"
+  ],
+  "activationCommands": {
+    "atom-workspace": "latex-tree:toggle-tree-view"
+  },
+  "repository": "https://github.com/atom/latex-tree",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.21.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
