@@ -1,4 +1,4 @@
-# latex-tree
+# LaTeX Tree
 
 Document tree view for LaTeX.
 

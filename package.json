@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "latex-tree:toggle-tree-view"
   },
-  "repository": "https://github.com/atom/latex-tree",
+  "repository": "https://github.com/raphael-cch/latex-tree",
   "license": "GPL-3.0+",
   "engines": {
     "atom": ">=1.21.0 <2.0.0"

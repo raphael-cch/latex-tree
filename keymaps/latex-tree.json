@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
-    "alt-cmd-m": "latex-tree:toggle-tree-view"
-  }
+    "atom-workspace": {
+        "alt-cmd-m": "latex-tree:toggle-tree-view"
+    }
 }
