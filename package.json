@@ -21,5 +21,15 @@
     },
     "deserializers": {
         "latex-tree/LatexTreeView": "deserializeTreeView"
+    },
+    "configSchema": {
+        "updateFreq": {
+            "title": "Update Frequency",
+            "description": "Frequency for which the document tree view should be updated. If you experience lags when you type, try lowering the update frequency or changing to *On Save Only*.<br/>**High**: tree view will be updated very shortly after you stop typing.<br/>**Medium**: tree view will not update more than every 0.5s.<br/>**Low**: tree view will not update more than every 2s.<br/>**On Save Only**: tree view will only update when you save the document.",
+            "type": "string",
+            "default": "High",
+            "enum": [ "High", "Medium", "Low", "On Save Only" ],
+            "order": 1
+        },
     }
 }
