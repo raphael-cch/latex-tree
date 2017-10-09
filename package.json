@@ -1,42 +1,46 @@
 {
-    "name": "latex-tree",
-    "main": "./lib/latex-tree",
-    "version": "0.0.0",
-    "description": "Document tree view for LaTeX",
-    "keywords": [
-        "latex",
-        "tex",
-        "tree",
-        "view",
-        "navigation"
-    ],
-    "activationCommands": {
-        "atom-workspace": "latex-tree:toggle-tree-view"
+  "name": "latex-tree",
+  "main": "./lib/latex-tree",
+  "version": "0.1.0",
+  "description": "Document tree view for LaTeX",
+  "keywords": [
+    "latex",
+    "tex",
+    "tree",
+    "view",
+    "navigation"
+  ],
+  "activationCommands": {
+    "atom-workspace": "latex-tree:toggle-tree-view"
+  },
+  "repository": "https://github.com/raphael-cch/latex-tree",
+  "license": "GPL-3.0+",
+  "engines": {
+    "atom": ">=1.21.0 <2.0.0"
+  },
+  "dependencies": {},
+  "deserializers": {
+    "latex-tree/LatexTreeView": "deserializeTreeView"
+  },
+  "configSchema": {
+    "updateFreq": {
+      "title": "Update Frequency",
+      "description": "Frequency for which the document tree view should be updated. If you experience lags when you type, try lowering the update frequency or changing to *On Save Only*.<br/>**High**: tree view will be updated very shortly after you stop typing.<br/>**Medium**: tree view will not update more than every 0.5s.<br/>**Low**: tree view will not update more than every 2s.<br/>**On Save Only**: tree view will only update when you save the document.",
+      "type": "string",
+      "default": "High",
+      "enum": [
+        "High",
+        "Medium",
+        "Low",
+        "On Save Only"
+      ],
+      "order": 1
     },
-    "repository": "https://github.com/raphael-cch/latex-tree",
-    "license": "GPL-3.0+",
-    "engines": {
-        "atom": ">=1.21.0 <2.0.0"
-    },
-    "dependencies": {
-    },
-    "deserializers": {
-        "latex-tree/LatexTreeView": "deserializeTreeView"
-    },
-    "configSchema": {
-        "updateFreq": {
-            "title": "Update Frequency",
-            "description": "Frequency for which the document tree view should be updated. If you experience lags when you type, try lowering the update frequency or changing to *On Save Only*.<br/>**High**: tree view will be updated very shortly after you stop typing.<br/>**Medium**: tree view will not update more than every 0.5s.<br/>**Low**: tree view will not update more than every 2s.<br/>**On Save Only**: tree view will only update when you save the document.",
-            "type": "string",
-            "default": "High",
-            "enum": [ "High", "Medium", "Low", "On Save Only" ],
-            "order": 1
-        },
-        "focusEditorAfterClick": {
-            "title": "Focus Editor After Clicking",
-            "description": "Focuses back to the current text editor so you can start moving your cursor and typing straight away.",
-            "type": "boolean",
-            "default": true
-        }
+    "focusEditorAfterClick": {
+      "title": "Focus Editor After Clicking",
+      "description": "Focuses back to the current text editor so you can start moving your cursor and typing straight away.",
+      "type": "boolean",
+      "default": true
     }
+  }
 }
