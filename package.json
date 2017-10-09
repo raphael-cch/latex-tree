@@ -18,5 +18,8 @@
         "atom": ">=1.21.0 <2.0.0"
     },
     "dependencies": {
+    },
+    "deserializers": {
+        "latex-tree/LatexTreeView": "deserializeTreeView"
     }
 }
