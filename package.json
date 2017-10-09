@@ -31,5 +31,11 @@
             "enum": [ "High", "Medium", "Low", "On Save Only" ],
             "order": 1
         },
+        "focusEditorAfterClick": {
+            "title": "Focus Editor After Clicking",
+            "description": "Focuses back to the current text editor so you can start moving your cursor and typing straight away.",
+            "type": "boolean",
+            "default": true
+        }
     }
 }
