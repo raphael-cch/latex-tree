@@ -5,10 +5,10 @@ Document tree view for LaTeX.
 ![LaTeX Tree](./latex-tree-screenshot.png)
 
 ## Features
-* Display a document tree according to the `part`, `chapter`, `section`, `subsection`, `subsubsection`, `paragraph` and `subparagraph`labels in a LaTeX document.
+* Display a document tree according to the `part`, `chapter`, `section`, `subsection`, `subsubsection`, `paragraph` and `subparagraph` labels in a LaTeX document.
 * (Hopefully) accurate generation of tree view items, taking into account comments, line breaks, weird symbols etc in the title, and will ignore commented lines in the document (see example in screenshot above).
 * Clicking an item in the tree view will position the cursor (and scroll the text editor) to the corresponding position in the LaTeX file.
-* Text editor would be focused after clicking on the tree view, so you can move your cursor or start typing right away (can be turned off in settings)
+* Text editor would be focused after clicking on the tree view, so you can move your cursor or start typing right away (can be turned off in settings).
 * The corresponding item in the tree view would be highlighted according to the current cursor position.
 
 ## Basics
@@ -25,13 +25,13 @@ Alternatively, use the keybinding `ctrl-alt-m` (`cmd-alt-m` for macOS) to toggle
 This is the frequency for which the document tree view should be updated.
 If you experience lags when you type, try lowering the update frequency or changing to *On Save Only*.
 You can choose between:<br/>
-**High**: tree view will be updated very shortly after you stop typing.<br/>
+**High**: tree view will be updated very shortly after you stop typing. (note: this setting uses Atom's [`onDidStopChanging`](https://atom.io/docs/api/v1.21.0/TextEditor#instance-onDidStopChanging) event)<br/>
 **Medium**: tree view will not update more than every 0.5s.<br/>
 **Low**: tree view will not update more than every 2s.<br/>
 **On Save Only**: tree view will only update when you save the document.
 
 #### Focus Editor After Clicking
-This could be disabled if you do no want to focus back to the current text editor after clicking an item in the tree view.
+This could be disabled if you do not want to focus back to the current text editor after clicking an item in the tree view.
 
 ## Issues
 If you experience any problems with this package, please [open an issue on GitHub](https://github.com/raphael-cch/latex-tree/issues).
