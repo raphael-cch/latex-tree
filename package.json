@@ -1,13 +1,14 @@
 {
     "name": "latex-tree",
     "main": "./lib/latex-tree",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "description": "Document tree view for LaTeX",
     "keywords": [
         "latex",
         "tex",
         "tree",
-        "view"
+        "view",
+        "navigation"
     ],
     "activationCommands": {
         "atom-workspace": "latex-tree:toggle-tree-view"
