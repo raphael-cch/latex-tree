@@ -1,6 +1,10 @@
 ### 0.2.0 - Option to disable highlighting and bug fixes
 * Added config option to disable highlighting of tree view with cursor position
-* Minor bug fixes and improvements
+* Bug fixes:
+    * text editor not focused if mouse is moved while pressed down
+    * tree view not always displayed on pane change
+    * highlighting behavior misleading when cursor is in preamble / top matter
+* Other minor improvements
 
 ### 0.1.0 - Initial Release
 * Basic features including:
