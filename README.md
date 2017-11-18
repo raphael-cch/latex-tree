@@ -2,7 +2,7 @@
 
 Document tree view for LaTeX.
 
-![LaTeX Tree](./latex-tree-screenshot.png)
+![LaTeX Tree](https://raw.githubusercontent.com/raphael-cch/latex-tree/master/latex-tree-screenshot.png)
 
 ## Features
 * Display a document tree according to the `part`, `chapter`, `section`, `subsection`, `subsubsection`, `paragraph` and `subparagraph` labels in a LaTeX document.
