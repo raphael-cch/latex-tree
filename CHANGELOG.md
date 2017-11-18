@@ -1,3 +1,7 @@
+### 0.2.0 - Option to disable highlighting and bug fixes
+* Added config option to disable highlighting of tree view with cursor position
+* Minor bug fixes and improvements
+
 ### 0.1.0 - Initial Release
 * Basic features including:
     * generating document tree and displaying tree view
