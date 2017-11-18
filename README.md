@@ -9,7 +9,7 @@ Document tree view for LaTeX.
 * (Hopefully) accurate generation of tree view items, taking into account comments, line breaks, weird symbols etc in the title, and will ignore commented lines in the document (see example in screenshot above).
 * Clicking an item in the tree view will position the cursor (and scroll the text editor) to the corresponding position in the LaTeX file.
 * Text editor would be focused after clicking on the tree view, so you can move your cursor or start typing right away (can be turned off in settings).
-* The corresponding item in the tree view would be highlighted according to the current cursor position.
+* The corresponding item in the tree view would be highlighted according to the current cursor position (can be turned off in settings).
 
 ## Basics
 #### Installation
@@ -32,6 +32,9 @@ You can choose between:<br/>
 
 #### Focus Editor After Clicking
 This could be disabled if you do not want to focus back to the current text editor after clicking an item in the tree view.
+
+#### Highlight Tree View Item according to current Cursor Position
+This could be disabled if you do not want the corresponding item in the tree view to be highlighted according to the current cursor position. If you experience lags when you move the cursor, try disabling this option.
 
 ## Issues
 If you experience any problems with this package, please [open an issue on GitHub](https://github.com/raphael-cch/latex-tree/issues).
