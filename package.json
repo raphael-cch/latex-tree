@@ -41,6 +41,12 @@
       "description": "Focuses back to the current text editor so you can start moving your cursor and typing straight away.",
       "type": "boolean",
       "default": true
+    },
+    "highlightWithCursorPost": {
+      "title": "Highlight Tree View Item according to current Cursor Position",
+      "description": "The corresponding item in the document tree view would be highlighted according to the current cursor position. If you experience lags when you move the cursor, try disabling this option.",
+      "type": "boolean",
+      "default": true
     }
   }
 }
