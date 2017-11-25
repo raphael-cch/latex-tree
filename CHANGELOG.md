@@ -1,3 +1,6 @@
+### 0.2.1 - Bugfix
+* Minor bug fix: TypeError when there is nothing in the document tree
+
 ### 0.2.0 - Option to disable highlighting and bug fixes
 * Added config option to disable highlighting of tree view with cursor position
 * Bug fixes:
