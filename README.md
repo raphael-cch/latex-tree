@@ -25,7 +25,7 @@ Alternatively, use the keybinding `ctrl-alt-m` (`cmd-alt-m` for macOS) to toggle
 This is the frequency for which the document tree view should be updated.
 If you experience lags when you type, try lowering the update frequency or changing to *On Save Only*.
 You can choose between:<br/>
-**High**: tree view will be updated very shortly after you stop typing. (note: this setting uses Atom's [`onDidStopChanging`](https://atom.io/docs/api/v1.21.0/TextEditor#instance-onDidStopChanging) event)<br/>
+**High**: tree view will be updated very shortly after you stop typing. (note: this setting uses Atom's [`onDidStopChanging`](https://atom.io/docs/api/latest/TextEditor#instance-onDidStopChanging) event)<br/>
 **Medium**: tree view will not update more than every 0.5s.<br/>
 **Low**: tree view will not update more than every 2s.<br/>
 **On Save Only**: tree view will only update when you save the document.
