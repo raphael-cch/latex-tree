@@ -43,7 +43,7 @@ If you experience any problems with this package, please [open an issue on GitHu
 GPL-3.0
 ```
 latex-tree: Document tree view for LaTeX.
-Copyright (C) 2017 Raphael Chung
+Copyright (C) 2017-2018 Raphael Chung
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
