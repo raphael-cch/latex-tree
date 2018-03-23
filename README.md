@@ -10,7 +10,7 @@ Document tree view for LaTeX.
 * Clicking an item in the tree view will position the cursor (and scroll the text editor) to the corresponding position in the LaTeX file.
 * Text editor would be focused after clicking on the tree view, so you can move your cursor or start typing right away (can be turned off in settings).
 * The corresponding item in the tree view would be highlighted according to the current cursor position (can be turned off in settings).
-* Support for multi-file LaTeX documents using `\include` and `\input` (more details [here](https://github.com/raphael-cch/latex-tree#multi-file-support))
+* Support for multi-file LaTeX documents using `\include` and `\input` (more details [below](https://github.com/raphael-cch/latex-tree#multi-file-support))
 
 ## Basics
 #### Installation
@@ -30,12 +30,12 @@ or
 ```
 \input{relative-or-absolute-file-path}
 ```
-in the root file.
-You could also specify the root file by using the "TeX Magic Comment"
+in the main root file.
+You could also specify the main root file by using the "TeX Magic Comment"
 ```
 % !TEX root = ../main.tex
 ```
-on the first line of each subfile included by the main root file
+at the beginning of **each subfile** included by the main root file
 (see the [documentation for the `latex` package](https://github.com/thomasjo/atom-latex/wiki/Overridding-Build-Settings) for more details).
 
 ## Settings
