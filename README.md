@@ -37,6 +37,7 @@ You could also specify the main root file by using the "TeX Magic Comment"
 ```
 at the beginning of **each subfile** included by the main root file
 (see the [documentation for the `latex` package](https://github.com/thomasjo/atom-latex/wiki/Overridding-Build-Settings) for more details).
+This would cause the document tree to be generated from the main root file instead of the current file.
 
 ## Settings
 #### Update Frequency

@@ -1,3 +1,6 @@
+### 0.3.0 - Support for multi-file documents
+* Added support for documents with multiple files, see the [relevant section in readme](https://github.com/raphael-cch/latex-tree#multi-file-support) for more details
+
 ### 0.2.1 - Bugfix
 * Minor bug fix: TypeError when there is nothing in the document tree
 
