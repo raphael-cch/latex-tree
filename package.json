@@ -1,7 +1,7 @@
 {
   "name": "latex-tree",
   "main": "./lib/latex-tree",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Document tree view for LaTeX",
   "keywords": [
     "latex",
