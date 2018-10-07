@@ -22,7 +22,7 @@ Alternatively, use the keybinding `ctrl-alt-m` (`cmd-alt-m` for macOS) to toggle
 [You can change the default keybinding too.](https://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings)
 
 #### Multi-file support
-This package now supports LaTeX documents with multiple files using
+This package supports LaTeX documents with multiple files using the commands
 ```
 \include{relative-file-path}
 ```
@@ -30,7 +30,7 @@ or
 ```
 \input{relative-or-absolute-file-path}
 ```
-in the main root file.
+or `\import`, `\subimport`, `\inputfrom`, `\subinputfrom`, `\includefrom`, `\subincludefrom` (from the [import package](https://www.ctan.org/pkg/import)).
 You could also specify the main root file by using the "TeX Magic Comment"
 ```
 % !TEX root = ../main.tex

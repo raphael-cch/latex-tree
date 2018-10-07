@@ -1,3 +1,7 @@
+### 0.5.0 - Support for more import commands
+* Support for the [import package](https://www.ctan.org/pkg/import): commands `\import`, `\subimport`, `\inputfrom`, `\subinputfrom`, `\includefrom`, `\subincludefrom`
+* Bug fix for incorrect file path behaviour when `\input`s are nested
+
 ### 0.4.0 - Support for folding tree structure
 * Tree structure can now be folded by clicking the arrow
 
